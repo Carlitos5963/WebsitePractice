@@ -1,0 +1,46 @@
+html{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(211, 211, 211, 0.5);
+    box-shadow:20px 0px 50px grey, -20px 0px 50px grey;
+}
+
+#bodyStart{
+    /*This is where I left off, trying to create a card-like style page*/
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.imgContainer button{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+.imgContainer button:hover{
+    background-color: lightblue;
+}
+
+#carouselExampleIndicators{
+    padding: 1%;
+    background-color: gray;
+}
+
+.carousel-item{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-family: 'Calibri';
+    min-width: 60%;
+}
